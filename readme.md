@@ -72,6 +72,7 @@ credit-risk-prediction/
 │   ├── decision_tree.joblib
 │   └── random_forest.joblib
 ├── app.py
+├── requirements.txt
 └── README.md
 ```
 
@@ -99,7 +100,7 @@ Python 3.10 or newer is recommended.
 4. Install the required packages:
 
    ```bash
-   pip install pandas numpy scikit-learn imbalanced-learn matplotlib seaborn joblib optuna streamlit
+   pip install -r requirements.txt
    ```
 
 If the notebooks use additional libraries, install those as well.
